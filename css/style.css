@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../images/hd-wallpaper-1001679_1920.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login{
+    height: min-content;
+    width: 360px;
+    padding: 20px;
+    border-radius: 12px;
+    background: #fff;
+}
+.login h1{
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.login form {
+
+font-size: 20px;
+}
+.login form .form-group{
+
+margin-bottom: 12px;
+}
+.login form input[type="submit"]{
+
+font-size: 20px;
+
+margin-top: 15px;
+}
